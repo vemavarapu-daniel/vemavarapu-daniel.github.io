@@ -1,0 +1,8 @@
+<svg id="Symbols" xmlns="http://www.w3.org/2000/svg" width="48.585" height="80" viewBox="0 0 48.585 80">
+  <g id="Head_Front_Short-2" data-name="Head/Front/Short-2">
+    <g id="Head" transform="translate(4 7)">
+      <path id="Path_1" data-name="Path 1" d="M8.262,34.49C3.654,29.081.536,22.453,1.057,15.026c1.5-21.4,31.292-16.693,37.087-5.892s5.106,38.2-2.383,40.13c-2.987.77-9.349-1.116-15.825-5.019L24,73H0Z" transform="translate(0 0)" fill="#b28b67" fill-rule="evenodd"/>
+    </g>
+    <path id="Hair" d="M60.418,70.308c-3.012-13.4-11.594-22.536-10.283-28.526a9.085,9.085,0,0,1,6.986-7.45q2.935-11.875,18.934-10.1c16,1.773,25.763,8.417,21.547,23.037-3.876,0-8.556-1.4-15.027,1q-3.08,1.143-4.406,7.09H75.246q-4.257-7.057-8.395-5.187t-1.881,9.087l-1.44,11.049Z" transform="translate(-50 -24)" fill="#191847" fill-rule="evenodd"/>
+  </g>
+</svg>
