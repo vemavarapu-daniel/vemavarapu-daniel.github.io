@@ -1,81 +1,79 @@
-.projectslist{
-  align-content: center;
-  position: relative;
-  top:300px;
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <style>
+    body {
+      background-color: black;
+    }
+  </style>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+  <title>PROJECTS</title>
+</head>
 
-  font-size:1.5vw;
-
-}
-details> summary{
-  list-style: none;
-  padding-bottom: 20px;
+<body style="background-color-black">
+  <div class="progressbar"></div>
+  <div class="scrollpath"></div>
 
 
-}
-details> summary::-webkit-details-marker{
-  display: none;
 
-}
 
-.pro1{
+  <div class="logo">
 
-  position:relative;
-  font-family: 'Lato';
-  font-weight: bold;
-  color: #A7BBC7;
-  width: 45vw;
-  left:43vw;
-  cursor: pointer;
-}
-.pro1:hover{
-  left:42.8vw;
-}
-.pro1-detail{
+    <img src="Symbols.svg" class="logoimage" alt="">
+  </div>
+  <div class="navbar">
+    <a href="index.html" class="home">HOME</a>
+    <a href="about.html" class='about'>ABOUT</a>
+    <a href="projects.html" class='projets'>PROJECTS</a>
+    <a href="index.html" class='blogs'>BLOGS</a>
+    <a href="index.html" class='hireme'>HIRE ME </a>
 
-  position: relative;
-  left:-13vw;
-  color:#E1E5EA;
-  font-size:1.3vw;
-  line-height: 1.6;
-  cursor:default;
-}
-.pro1link{
-  text-decoration:none;
-  color:#E1E5EA;
-}
-.pro2{
-  padding-top: 15px;
-  position:relative;
-  font-family: 'Lato';
-  font-weight: bold;
-  color: #A7BBC7;
-  width: 45vw;
-  left:43vw;
-  padding-bottom:1px;
-  cursor: pointer;
-}
-.pro2-detail{
 
-  position: relative;
-  left:-13vw;
-  color:#E1E5EA;
-  font-size:1.3vw;
-}
-.pro3{
-  padding-top: 15px;
-  position:relative;
-  font-family: 'Lato';
-  font-weight: bold;
-  color: #A7BBC7;
-  width: 45vw;
-  left:43vw;
-  padding-bottom:1px;
-  cursor: pointer;
-}
-.pro3-detail{
-  position: relative;
-  left:-13vw;
-  color:#E1E5EA;
-  font-size:1.3vw;
+  </div>
+  <div class="projectslist">
+    <details class="pro1">
+      <summary>RESUME BUILDER</summary>
+      <p class="pro1-detail">Description :<span> </span>
+        This project will help to build resume. We can customize every thing from background color
+        to text font, colors etc and align text as the induvidual liking. This project is coded entirly in python
+        by use libraries like matplotlib to place text in place. the output can be exported in to any extensions like
+        pdf, png , jpg etc.<br>
+        <br>
+        <a class="pro1link"href="https://github.com/vemavarapu-daniel/python-resume-generator.git" target="_blank"> Click here for code on Github repository  </a>
 
-}
+
+        <br>
+
+        </p>
+
+    </details>
+    <details class="pro2">
+      <summary>DAILY WORD</summary>
+      <p class="pro2-detail">Description :<span> </span>
+        Daily Word is a project which helps you build english vocabulary by sending a new word and its meaning everyday to your
+         mail and also as notification. This project is coded entirly in python. we can even make automated by using libraries
+         like butiful soup or any other web scraping tools to scrap everyday news which can be formared into your liking.
+      </p>
+
+    </details>
+    <details class="pro3">
+      <summary>DAILY WORD</summary>
+      <p class="pro2-detail">Description :<span> </span>
+        Daily Word is a project which helps you build english vocabulary by sending a new word and its meaning everyday to your
+         mail and also as notification. This project is coded entirly in python. we can even make automated by using libraries
+         like butiful soup or any other web scraping tools to scrap everyday news which can be formared into your liking.
+      </p>
+
+    </details>
+
+
+  </div>
+
+
+  </body>
+</html>
