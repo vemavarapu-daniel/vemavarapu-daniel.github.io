@@ -69,18 +69,7 @@ body{
   font-family: Calibri, Arial;
   font-weight: bold;
 }
-.blogs{
-  text-decoration:none;
-  color:#827397;
-  text-shadow: 0 0 1px white;
-  position: absolute;
-  background:none;
-  letter-spacing: 1px;
-  top:50px;
-  left:80vw;
-  font-family: Calibri, Arial;
-  font-weight: bold;
-}
+
 .hireme{
   text-decoration:none;
   color:#827397;
@@ -89,23 +78,25 @@ body{
   text-shadow: 0 0 1px white;
   letter-spacing: 1px;
   top:50px;
-  left:90vw;
+  left:80vw;
   font-family: Calibri, Arial;
   font-weight: bold;
 }
 .hireme:hover{
   text-shadow: 2px 2px 10px #a7bbc7;
+  left:80.1vw;
 }
-.blogs:hover{
-  text-shadow: 2px 2px 10px #a7bbc7;
-}
+
 .projets:hover{
   text-shadow: 2px 2px 10px #a7bbc7;
+  left:70.1vw;
 }
 .about:hover{
   text-shadow: 2px 2px 10px #a7bbc7;
+  left:60.1vw;
 }
 .home:hover{
+  left: 50.1vw;
   text-shadow: 2px 2px 10px #a7bbc7;}
 
 
@@ -266,7 +257,7 @@ body{
   font-size:3vw;
   position: absolute;
   font-family: monospace;
-  top:430px;
+  top:420px;
   left:40vw;
   opacity: 15%;
 }
