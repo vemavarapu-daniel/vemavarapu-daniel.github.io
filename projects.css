@@ -9,6 +9,7 @@
 details> summary{
   list-style: none;
   padding-bottom: 20px;
+  align-content: center;
 
 
 }
@@ -54,6 +55,9 @@ details> summary::-webkit-details-marker{
   padding-bottom:1px;
   cursor: pointer;
 }
+.pro2:hover{
+  left:42.8vw;
+}
 .pro2-detail{
 
   position: relative;
@@ -63,7 +67,7 @@ details> summary::-webkit-details-marker{
 }
 .pro3{
   padding-top: 15px;
-  position:relative;
+  position: relative;
   font-family: 'Lato';
   font-weight: bold;
   color: #A7BBC7;
@@ -71,8 +75,36 @@ details> summary::-webkit-details-marker{
   left:43vw;
   padding-bottom:1px;
   cursor: pointer;
+  transition-timing-function: linear;
+}
+.pro3:hover{
+  left:42.8vw;
+
 }
 .pro3-detail{
+  position: relative;
+  left:-13vw;
+  color:#E1E5EA;
+  font-size:1.3vw;
+
+}
+.pro4{
+  padding-top: 15px;
+  position: relative;
+  font-family: 'Lato';
+  font-weight: bold;
+  color: #A7BBC7;
+  width: 45vw;
+  left:43vw;
+  padding-bottom:1px;
+  cursor: pointer;
+  transition-timing-function: linear;
+}
+.pro4:hover{
+  left:42.8vw;
+
+}
+.pro4-detail{
   position: relative;
   left:-13vw;
   color:#E1E5EA;
